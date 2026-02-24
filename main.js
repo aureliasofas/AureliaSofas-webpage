@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     const grid = document.getElementById('collection-grid');
+    grid.innerHTML = ''; // avoid duplicates when HTML also has static cards
     categories.forEach(cat => {
         const item = document.createElement('div');
         item.className = `group relative overflow-hidden rounded-2xl h-80 ${cat.colSpan} cursor-pointer collection-card`;
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const galleryTrack = document.getElementById('gallery-track');
+    galleryTrack.innerHTML = ''; // avoid duplicates when HTML also has static images
     galleryImages.forEach(src => {
         const imgDiv = document.createElement('div');
         imgDiv.className = "w-[300px] md:w-[400px] h-[300px] rounded-xl overflow-hidden flex-shrink-0 shadow-md hover:shadow-xl transition-shadow duration-300";

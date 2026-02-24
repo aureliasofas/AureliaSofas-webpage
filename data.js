@@ -13,7 +13,7 @@ export const categories = [
     },
     {
         title: "Luxury Beds",
-        image: "https://images.unsplash.com/photo-1505693416388-b0346efee535?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=2070&auto=format&fit=crop",
         desc: "Sleep in royal comfort.",
         colSpan: "md:col-span-1",
     },
@@ -49,5 +49,9 @@ export const galleryImages = [
     "https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1780&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=2070&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=2070&auto=format&fit=crop",
-    "file:///Users/binurafernando/Downloads/Cut%20Arm%20Sofa.jpg"
+    //"file:///Users/binurafernando/Downloads/Cut%20Arm%20Sofa.jpg",
+    // Add more image URLs below – they will all appear in the gallery strip
+    "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=2070&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop",
 ];
